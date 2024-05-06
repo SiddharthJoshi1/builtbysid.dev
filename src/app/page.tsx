@@ -1,3 +1,4 @@
+import ProjectSection from "@/components/project_sections";
 import TopPage from "@/components/top_page";
 import { PersonalProfileRepoImplementation } from "@/data/personal_profile_repo_impl";
 import { LocalFileJSONParser } from "@/data/sources/local_file";
@@ -8,6 +9,7 @@ export default async function Home() {
   return (
     <main className=" flex flex-col items-center justify-center  overflow-x-hidden ">
       <TopPage personalProfileBody={personalProfileData.personal_profile} />
+      <ProjectSection projects={personalProfileData.projects}></ProjectSection>
     </main>
   );
 }
