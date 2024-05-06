@@ -6,13 +6,13 @@
         "title": "Automated Pressure Test System",
         "description": "Focused on optimising the engineers’ bath testing process. With my problem-solving and Python skills, I was able to develop a program that seamlessly automates the pressure testing of baths, ensuring precision and efficiency.🛁",
         "isWide": "true",
-        "image_url": "assets/images/automated_pressure_test_image.png",
+        "image_url": "assets/images/automated_pressure_test_image.svg",
         "skills": "Python, pywin32 , Selenium,  Tkinter"
       },
       {
         "title": "Drug Allergy App",
-        "description": "I was responsible for the development and launch of a drug allergy identification application using Flutter and Firebase. For this application I used Flutter’s BloC state management library. This questionnaire, designed for doctors to use in diagnosing drug allergies based on patient symptoms, took approximately 6 months to complete from initiation to deployment.",
-        "image_url": "assets/images/drug_allergy_app_image.png",
+        "description": "I was responsible for the development and launch of a drug allergy identification application using Flutter and Firebase. This questionnaire, designed for doctors to use in diagnosing drug allergies based on patient symptoms, took approximately 6 months to complete from initiation to deployment.",
+        "image_url": "assets/images/drug_allergy_app_image.svg",
         "isWide": "false",
         "skills": "Flutter, Dart, Firebase"
       },
@@ -20,14 +20,14 @@
         "title": "Untitled Dragon Game",
         "description": "A short demo game with temporary graphics, created using Fsharp as part of a group project. Used Fsharp to build the logic and then used Ionide to parse the Fsharp to Javascript and run using Fable",
         "isWide": "true",
-        "image_url": "assets/images/untitled_dragon_game.png",
+        "image_url": "assets/images/untitled_dragon_game.gif",
         "skills": "HTML, CSS, Javascript, Fsharp, Ionide"
       },
       {
         "title": "Birmingham Openhack",
         "description": "Successfully organized and led an annual hackathon from 2020 to 2021, showcasing innovation and collaboration within the Birmingham tech community. Initiated the inaugural event by conducting extensive research on hackathon organization, establishing a structured framework, and securing partnerships with 5 prominent Birmingham-based tech companies.",
         "isWide": "false",
-        "image_url": "assets/images/open_hack_image.png",
+        "image_url": "assets/images/open_hack_image.svg",
         "skills": "Collaboration, Leadership, Outreach, Marketing, Idea-Validation"
       }
     ],
