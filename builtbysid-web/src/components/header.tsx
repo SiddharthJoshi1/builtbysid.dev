@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function Header() {
   return (
-    <div className=" flex flex-col md:flex-row  items-center  justify-between px-24 overflow-hidden">
+    <div className=" flex flex-col lg:flex-row  items-center  justify-between p-8 md:px-24 overflow-hidden">
       <div>
         <Image
           src={"/assets/logos/SiD.png"}
@@ -13,7 +13,7 @@ export default function Header() {
           height={220}
         />
       </div>
-      <div className=" w-1/3 flex  flex-col md:flex-row items-center justify-between">
+      <div className=" w-1/2 xl:w-1/3 flex  flex-col lg:flex-row items-center justify-between">
         <p className=" text-xl p-3 font-bold hover:text-beige hover:cursor-pointer ">
           Projects
         </p>

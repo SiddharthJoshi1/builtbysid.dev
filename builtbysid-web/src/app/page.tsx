@@ -6,8 +6,8 @@ import { GetPersonalProfileData } from "@/domain/use_cases/get_personal_profile_
 export default async function Home() {
   let personalProfileData =  await new GetPersonalProfileData(new PersonalProfileRepoImplementation(new LocalFileJSONParser())).getPersonalProfileData();
   return (
-    <main className=" flex flex-col items-center justify-center overflow-hidden">
-      <TopPage />
+    <main className=" flex flex-col items-center justify-center  overflow-x-hidden ">
+      <TopPage personalProfileBody={personalProfileData.personal_profile} />
     </main>
   );
 }

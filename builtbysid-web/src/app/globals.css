@@ -7,9 +7,9 @@
   --background-rgb: 17,25,40;
 }
 
-* {
+/* * {
   outline: 1px solid #f00 !important;
-}
+} */
 
 body {
   color: rgb(var(--foreground-rgb));
