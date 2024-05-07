@@ -3,15 +3,22 @@
     "personal_profile": "I'm a versatile, full-stack software developer with a passion for crafting innovative solutions across diverse industries, including Environmental, Automotive, Audio/Video Streaming, Fitness and Health, and Medical. Specializing in cross-platform mobile and web application development; I excel in writing clean, modular, and maintainable code.",
     "projects": [
       {
+        "title": "Birmingham Openhack",
+        "description": "Successfully organized and led an annual hackathon from 2020 to 2021, showcasing innovation and collaboration within the Birmingham tech community. Initiated the inaugural event by conducting extensive research on hackathon organization, establishing a structured framework, and securing partnerships with 5 prominent Birmingham-based tech companies.",
+        "isWide": "true",
+        "image_url": "assets/images/open_hack_image.svg",
+        "skills": "Collaboration, Leadership, Outreach, Marketing, Idea-Validation"
+      },
+      {
         "title": "Automated Pressure Test System",
         "description": "Focused on optimising the engineers’ bath testing process. With my problem-solving and Python skills, I was able to develop a program that seamlessly automates the pressure testing of baths, ensuring precision and efficiency.🛁",
-        "isWide": "true",
+        "isWide": "false",
         "image_url": "assets/images/automated_pressure_test_image.svg",
         "skills": "Python, pywin32 , Selenium,  Tkinter"
       },
       {
         "title": "Drug Allergy App",
-        "description": "I was responsible for the development and launch of a drug allergy identification application using Flutter and Firebase. This questionnaire, designed for doctors to use in diagnosing drug allergies based on patient symptoms, took approximately 6 months to complete from initiation to deployment.",
+        "description": "I was responsible for the development and launch of a drug allergy identification application using Flutter and Firebase. The questionnaire was designed for doctors to use in diagnosing drug allergies based on patient symptoms.",
         "image_url": "assets/images/drug_allergy_app_image.svg",
         "isWide": "false",
         "skills": "Flutter, Dart, Firebase"
@@ -22,13 +29,6 @@
         "isWide": "true",
         "image_url": "assets/images/untitled_dragon_game.gif",
         "skills": "HTML, CSS, Javascript, Fsharp, Ionide"
-      },
-      {
-        "title": "Birmingham Openhack",
-        "description": "Successfully organized and led an annual hackathon from 2020 to 2021, showcasing innovation and collaboration within the Birmingham tech community. Initiated the inaugural event by conducting extensive research on hackathon organization, establishing a structured framework, and securing partnerships with 5 prominent Birmingham-based tech companies.",
-        "isWide": "false",
-        "image_url": "assets/images/open_hack_image.svg",
-        "skills": "Collaboration, Leadership, Outreach, Marketing, Idea-Validation"
       }
     ],
     "experiences": [

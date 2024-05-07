@@ -9,7 +9,11 @@ export default async function Home() {
   return (
     <main className=" flex flex-col items-center justify-center  overflow-x-hidden ">
       <TopPage personalProfileBody={personalProfileData.personal_profile} />
-      <ProjectSection projects={personalProfileData.projects}></ProjectSection>
+      <div id="projects-section">
+        <ProjectSection
+          projects={personalProfileData.projects}
+        ></ProjectSection>
+      </div>
     </main>
   );
 }

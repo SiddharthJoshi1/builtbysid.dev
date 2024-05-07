@@ -6,17 +6,22 @@ export default function Header() {
   return (
     <div className=" flex flex-col lg:flex-row  items-center  justify-between p-8 md:px-24 overflow-hidden">
       <div>
-        <Image
-          src={"/assets/logos/SiD.png"}
-          alt="Built By Sid Logo"
-          width={220}
-          height={220}
-        />
+        <a href="/">
+          <Image
+            src={"/assets/logos/SiD.png"}
+            alt="Built By Sid Logo"
+            width={200}
+            height={200}
+          />
+        </a>
       </div>
       <div className=" w-1/2 xl:w-1/3 flex  flex-col lg:flex-row items-center justify-between">
-        <p className=" text-xl p-3 font-bold hover:text-beige hover:cursor-pointer ">
+        <a
+          href="#projects-section"
+          className=" text-xl p-3 font-bold hover:text-beige hover:cursor-pointer "
+        >
           Projects
-        </p>
+        </a>
         <p className=" text-xl p-3 font-bold hover:text-beige hover:cursor-pointer ">
           Experience
         </p>

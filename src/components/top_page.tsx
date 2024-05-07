@@ -68,7 +68,7 @@ export default function TopPage(props: titleProps) {
           </div>
         </div>
       </div>
-      <div className="flex flex-col items-center justify-center ">
+      <div className="flex flex-col items-center justify-start ">
         <Image
           className="w-[400px] h-[400px] lg:w-[600px] lg:h-[600px]"
           src={"/assets/images/sid.svg"}
