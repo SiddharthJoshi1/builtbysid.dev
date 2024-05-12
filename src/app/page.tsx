@@ -8,7 +8,7 @@ export default async function Home() {
    console.info(process.cwd());
   let personalProfileData = await new GetPersonalProfileData(
     new PersonalProfileRepoImplementation(new LocalFileJSONParser())
-  ).getPersonalProfileData(process.cwd() + "/src/app/data.json");
+  ).getPersonalProfileData();
   return (
     <main className=" flex flex-col items-center justify-center  overflow-x-hidden ">
       <TopPage personalProfileBody={personalProfileData.personal_profile} />

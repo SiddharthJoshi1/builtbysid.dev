@@ -6,8 +6,8 @@ export class GetPersonalProfileData {
     this.personalProfileRepo = personalProfileRepo;
   }
 
-  async getPersonalProfileData(filePath: string): Promise<PersonalProfile> {
-     let list = await this.personalProfileRepo.getPersonalProfileData(filePath);
+  async getPersonalProfileData(): Promise<PersonalProfile> {
+     let list = await this.personalProfileRepo.getPersonalProfileData();
      return list;
   }
 }
