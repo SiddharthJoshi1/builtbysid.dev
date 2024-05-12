@@ -10,7 +10,7 @@ export class LocalFileJSONParser extends LocalFileJSONParserInterface {
   async loadAllJsonData(): Promise<PersonalProfile> {
     log(process.cwd())
     const file = await fs.readFile(
-      process.cwd() + "/public/assets/data/data.json",
+      "public/assets/data/data.json",
       "utf8"
     );
     const data = JSON.parse(file);
