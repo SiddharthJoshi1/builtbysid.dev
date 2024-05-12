@@ -1,0 +1,93 @@
+[
+  {
+    "personal_profile": "I'm a versatile, full-stack software developer with a passion for crafting innovative solutions across diverse industries, including Environmental, Automotive, Audio/Video Streaming, Fitness and Health, and Medical. Specializing in cross-platform mobile and web application development; I excel in writing clean, modular, and maintainable code.",
+    "projects": [
+      {
+        "title": "Birmingham Openhack",
+        "description": "Successfully organized and led an annual hackathon from 2020 to 2021, showcasing innovation and collaboration within the Birmingham tech community. Initiated the inaugural event by conducting extensive research on hackathon organization, establishing a structured framework, and securing partnerships with 5 prominent Birmingham-based tech companies.",
+        "isWide": "true",
+        "image_url": "assets/images/open_hack_image.svg",
+        "skills": "Collaboration, Leadership, Outreach, Marketing, Idea-Validation"
+      },
+      {
+        "title": "Automated Pressure Test System",
+        "description": "Focused on optimising the engineers’ bath testing process. With my problem-solving and Python skills, I was able to develop a program that seamlessly automates the pressure testing of baths, ensuring precision and efficiency.🛁",
+        "isWide": "false",
+        "image_url": "assets/images/automated_pressure_test_image.svg",
+        "skills": "Python, pywin32 , Selenium,  Tkinter"
+      },
+      {
+        "title": "Drug Allergy App",
+        "description": "I was responsible for the development and launch of a drug allergy identification application using Flutter and Firebase. The questionnaire was designed for doctors to use in diagnosing drug allergies based on patient symptoms.",
+        "image_url": "assets/images/drug_allergy_app_image.svg",
+        "isWide": "false",
+        "skills": "Flutter, Dart, Firebase"
+      },
+      {
+        "title": "Untitled Dragon Game",
+        "description": "A short demo game with temporary graphics, created using Fsharp as part of a group project. Used Fsharp to build the logic and then used Ionide to parse the Fsharp to Javascript and run using Fable",
+        "isWide": "true",
+        "image_url": "assets/images/untitled_dragon_game.gif",
+        "skills": "HTML, CSS, Javascript, Fsharp, Ionide"
+      }
+    ],
+    "experiences": [
+      {
+        "title": "TWYN Ltd.",
+        "role": "Software Engineer",
+        "location": "London, United Kingdom",
+        "dates": "May 2023 - Present",
+        "description": "As part of TWYN's development team, I contributed to creating apps that redefine the podcast and video chat landscape with interactive storytelling. From ideation to execution, I ensured each episode offers a unique user-driven narrative journey. TWYN utilized AI speech recognition, video streaming, Flutter pages, and widgets dynamically built from JSON.",
+        "skills": "Flutter, Dart, Mockito, Azure, Next.js, React.js, Node.js, C#, REST, GraphQl, Fusion-Auth, Intercom, Storyblok"
+      },
+      {
+        "title": "Vergroot Development Ltd.",
+        "role": "Co-Founder",
+        "location": "Birmingham, United Kingdom",
+        "dates": "Nov 2021 - Jan 2023",
+        "description": "At Vergroot Development LTD, I spearheaded a dynamic tech agency providing mobile app, machine learning, and web development services to SMEs. Notable projects included developing a Python-based keyphrase extraction solution, significantly enhancing file organization efficiency and user experience. Additionally, I led the creation of an MVP social network app using Flutter, integrating Firebase for authentication and storage, and subsequently transforming it into a Progressive Web App. Furthermore, I collaborated with a leading 3D manufacturing firm, swiftly mastering Django and React.js to provide bug fixes and implement interactive graph functionality, amplifying project analytics capabilities.",
+        "skills": "React.js, Python, Powershell, Flutter, Dart, Flask, ML, PostgreSQL, Django, Firebase"
+      },
+      {
+        "title": "Civico",
+        "role": "Angular Development",
+        "location": "Birmingham, United Kingdom",
+        "dates": "Dec 2021 - Dec 2022",
+        "description": "At Civico, contributed to developing and maintaining an audio/video conferencing platform using AngularJS and TypeScript. Utilized agile methodologies like Scrum and Kanban. Implemented WebRTC and web sockets for real-time data exchange. Engineered advanced audio ducking functionality and reduced bugs by 40%. Enhanced video streaming efficiency and introduced a 'guest' participant role for accessibility.",
+        "skills": "AngularJS, TypeScript, WebRTC"
+      },
+      {
+        "title": "BCU Software House",
+        "role": "Senior Software Engineer",
+        "location": "Birmingham, United Kingdom",
+        "dates": "Apr 2020 - Jul 2022",
+        "description": "At BCU Software House, as a Senior FullStack Software Developer, led client projects utilizing JavaScript, TypeScript, Flutter, Wordpress, and Node.js. Established best practices, acted as primary client contact, mentored junior developers, and enhanced deployment speed by 30%. Organized and led Birmingham Open Hack, transitioning it to remote format during Covid-19, doubling participation, and winning Young Tech Person of the Year award. Led projects including DFMA and Drug Allergy apps, integrating Firebase, Flutter, and providing medical expertise. Developed Student Project Idea Validation platform and enhanced Innovation Fest Website with Wordpress features.",
+        "skills": "Kotlin, TypeScript, Flutter, Dart, Firebase, Node.js, React.js, Wordpress, REST API, Nginx, Mailchimp"
+      },
+      {
+        "title": "Pinewood Technologies",
+        "role": "Placement Software Developer",
+        "dates": "Aug 2020 - Aug 2021",
+        "location": "Birmingham, United Kingdom",
+        "description": "At Pinewood Technologies, contributed to dealership management ecosystem using Xamarin Forms/C#. Completed UI boot camp, showcasing modern design principles. Developed to-do list app demonstrating C# proficiency. Mastered XAML data binding and MVVM pattern in Xamarin Forms. Utilized agile methodologies for bug fixes, new features. Led background removal feature integration with REST API. Learned Azure DevOps for CI/CD.",
+        "skills": "Xamarin, C#, XAML, MVVM, REST, Azure"
+      },
+      {
+        "title": "Civico",
+        "role": "Kotlin Developer - Contract",
+        "dates": "May 2020 - Jul 2020",
+        "location": "Birmingham, United Kingdom",
+        "description": "At Civico, as a Kotlin Developer, contributed to developing an audio/video council meeting app in Kotlin and Android Studio. Implemented bug fixes, designed user-friendly interfaces adhering to Material Design guidelines, and followed agile methodologies for timely releases.",
+        "skills": "Kotlin, Android, Real-time"
+      },
+      {
+        "title": "Energym",
+        "role": "Full Stack Software Developer",
+        "dates": "Jul 2019 - May 2020",
+        "location": "Birmingham, United Kingdom",
+        "description": "At Energym, pioneered and maintained a mobile app using Flutter and Dart, collaborating closely with the CEO to deliver high-quality releases. Utilized Firebase for secure authentication, storage, and real-time data exchange. Developed custom code for ESP32 microcontrollers and collaborated with Mech-Eng team for backend integration.",
+        "skills": "Flutter, Dart, Firebase, ESP32"
+      }
+    ]
+  }
+]

@@ -1,3 +1,3 @@
 export abstract class PersonalProfileRepo {
-    abstract getPersonalProfileData() : Promise<PersonalProfile>;
+    abstract getPersonalProfileData(filePath: string) : Promise<PersonalProfile>;
 }

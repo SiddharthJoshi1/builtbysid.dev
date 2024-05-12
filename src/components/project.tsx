@@ -9,6 +9,8 @@ interface ProjectProps {
 }
 
 export default function ProjectItem(props: ProjectProps) {
+  console.info(process.cwd())
+  
     return (
       <div
         className={`${

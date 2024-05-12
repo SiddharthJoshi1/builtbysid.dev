@@ -11,7 +11,7 @@ export class PersonalProfileRepoImplementation extends PersonalProfileRepo {
     this.localFileParser = localFileParser;
   }
 
-  getPersonalProfileData(): Promise<PersonalProfile> {
-    return this.localFileParser.loadAllJsonData();
+  getPersonalProfileData(filePath: string): Promise<PersonalProfile> {
+    return this.localFileParser.loadAllJsonData(filePath);
   }
 }

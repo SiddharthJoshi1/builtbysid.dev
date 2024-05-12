@@ -6,7 +6,7 @@ import { GetPersonalProfileData } from "@/domain/use_cases/get_personal_profile_
 export default async function Page(props:any) {
   let personalProfileData = await new GetPersonalProfileData(
     new PersonalProfileRepoImplementation(new LocalFileJSONParser())
-  ).getPersonalProfileData();
+  ).getPersonalProfileData(process.cwd() + "/src/app/data.json");
 
   let decodedProjectName: string = decodeURIComponent(props.params.project); 
   let currentProject:project | undefined =  personalProfileData.projects?.find((project) => {console.log(project.title); return project.title === decodedProjectName});
