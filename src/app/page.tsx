@@ -5,7 +5,6 @@ import { LocalFileJSONParser } from "@/data/sources/local_file";
 import { GetPersonalProfileData } from "@/domain/use_cases/get_personal_profile_data";
 
 export default async function Home() {
-   console.info(process.cwd());
   let personalProfileData = await new GetPersonalProfileData(
     new PersonalProfileRepoImplementation(new LocalFileJSONParser())
   ).getPersonalProfileData();
