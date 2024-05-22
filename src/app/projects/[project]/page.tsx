@@ -27,7 +27,7 @@ export default async function Page(props: any) {
           <p className="px-2 py-1 max-sm:text-start xl:text-base  overflow-clip">
             {currentProject?.description}
           </p>
-          <div className="my-10 grid grid-cols-4 gap-5">
+          <div className="my-10 grid grid-cols-2 md:grid-cols-4 gap-5">
             {skillsArray.map((skill, i) => (
               <div
                 key={i}
