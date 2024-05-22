@@ -7,7 +7,8 @@
         "description": "Successfully organized and led an annual hackathon from 2020 to 2021, showcasing innovation and collaboration within the Birmingham tech community. Initiated the inaugural event by conducting extensive research on hackathon organization, establishing a structured framework, and securing partnerships with 5 prominent Birmingham-based tech companies.",
         "isWide": "true",
         "image_url": "assets/images/open_hack_image.svg",
-        "skills": "Collaboration, Leadership, Outreach, Marketing, Idea-Validation"
+        "skills": "Collaboration, Leadership, Outreach, Marketing, Idea-Validation",
+        "links" : [{"linkType" : "website", "linkHref" : "https://openhack.tech/nasa/"}]
       },
       {
         "title": "Automated Pressure Test System",
