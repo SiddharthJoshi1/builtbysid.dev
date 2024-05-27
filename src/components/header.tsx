@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function Header() {
   return (
-    <div className=" flex flex-col lg:flex-row  items-center  justify-between p-8 md:px-24 overflow-hidden">
+    <div className=" flex flex-col lg:flex-row  items-center  justify-between  md:px-24 overflow-hidden">
       <div>
         <a href="/">
           <Image
@@ -22,9 +22,11 @@ export default function Header() {
         >
           Projects
         </a>
-        <p className=" text-xl p-3 font-bold hover:text-beige hover:cursor-pointer ">
-          Experience
-        </p>
+        <a href="#experience-section">
+          <p className=" text-xl p-3 font-bold hover:text-beige hover:cursor-pointer ">
+            Experience
+          </p>
+        </a>
         <button
           className=" bg-oil hover:bg-gray-800  hover:cursor-pointer p-3 rounded-md "
           onClick={(e) =>

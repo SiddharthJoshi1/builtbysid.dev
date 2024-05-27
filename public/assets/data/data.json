@@ -46,7 +46,7 @@
         "role": "Co-Founder",
         "location": "Birmingham, United Kingdom",
         "dates": "Nov 2021 - Jan 2023",
-        "description": "At Vergroot Development LTD, I spearheaded a dynamic tech agency providing mobile app, machine learning, and web development services to SMEs. Notable projects included developing a Python-based keyphrase extraction solution, significantly enhancing file organization efficiency and user experience. Additionally, I led the creation of an MVP social network app using Flutter, integrating Firebase for authentication and storage, and subsequently transforming it into a Progressive Web App. Furthermore, I collaborated with a leading 3D manufacturing firm, swiftly mastering Django and React.js to provide bug fixes and implement interactive graph functionality, amplifying project analytics capabilities.",
+        "description": "At Vergroot Development LTD, I spearheaded a dynamic tech agency providing mobile app, machine learning, and web development services to SMEs. \n \n Notable projects included developing a Python-based keyphrase extraction solution, significantly enhancing file organization efficiency and user experience.  \n \n Additionally, I led the creation of an MVP social network app using Flutter, integrating Firebase for authentication and storage, and subsequently transforming it into a Progressive Web App.  \n \n Furthermore, I collaborated with a leading 3D manufacturing firm, swiftly mastering Django and React.js to provide bug fixes and implement interactive graph functionality, amplifying project analytics capabilities.",
         "skills": "React.js, Python, Powershell, Flutter, Dart, Flask, ML, PostgreSQL, Django, Firebase"
       },
       {

@@ -1,8 +1,8 @@
 interface experience {
-  title: String;
-  role: String;
-  location: String;
-  dates: String;
-  description: String;
-  skills: String;
+  title: string;
+  role: string;
+  location: string;
+  dates: string;
+  description: string;
+  skills: string;
 }
