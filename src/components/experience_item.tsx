@@ -76,7 +76,7 @@ export default function ExperienceItem(props: experienceItemProps) {
               <br></br>
               <SkillsItem
                 key={"skillItem"}
-                className = "text-sm grid  max-[400px]:grid-cols-2 grid-cols-3  gap-3 md:grid-cols-5 md:gap-4 lg:grid-cols-7 lg:gap-5 xl:grid-cols-12 xl:gap-6 "
+                className = "text-sm grid  max-[400px]:grid-cols-2 grid-cols-3  gap-3 md:grid-cols-5 md:gap-4 lg:grid-cols-7 lg:gap-5 xl:grid-cols-10 xl:gap-6 "
                 skillsArray={props.skills.split(",")}
               ></SkillsItem>
             </div>
