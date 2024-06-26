@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function Header() {
   return (
-    <div className=" flex flex-col lg:flex-row  items-center  justify-between lg:px-4 overflow-hidden">
+    <div className=" flex flex-col lg:flex-row  items-center  justify-between md:pl-2 md:pr-8 2xl:px-24 overflow-hidden">
       <div>
         <a href="/">
           <Image
