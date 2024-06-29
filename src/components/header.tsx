@@ -2,6 +2,14 @@
 
 import Image from "next/image";
 
+function scrollIntoView(
+  mouseEvent:any,
+  href: string
+) {
+  mouseEvent.preventDefault();
+  document.getElementById(href)!.scrollIntoView({ behavior: "smooth" });
+}
+
 export default function Header() {
   return (
     <div className=" flex flex-col lg:flex-row  items-center  justify-between md:pl-2 md:pr-8 2xl:px-24 overflow-hidden">
@@ -17,12 +25,20 @@ export default function Header() {
       </div>
       <div className=" w-1/2 xl:w-1/3 flex  flex-col lg:flex-row items-center justify-between">
         <a
+        onClick={(e) => {
+           scrollIntoView(e, "projects-section");
+        }}
           href="#projects-section"
           className=" text-xl p-3 font-bold hover:text-beige hover:cursor-pointer "
         >
           Projects
         </a>
-        <a href="#experience-section">
+        <a
+          href="#experience-section"
+          onClick={(e) => {
+           scrollIntoView(e, "experience-section");
+          }}
+        >
           <p className=" text-xl p-3 font-bold hover:text-beige hover:cursor-pointer ">
             Experience
           </p>
