@@ -15,7 +15,7 @@ export default function Header() {
 const pathname = usePathname();
 
   return (
-    <div className=" flex flex-col lg:flex-row  items-center  justify-between md:pl-2 md:pr-8 2xl:px-24 overflow-hidden">
+    <div className=" flex flex-col lg:flex-row  items-center  justify-between md:pl-2 md:pr-8 2xl:px-24 overflow-hidden ">
       <div>
         <a href="/">
           <Image
@@ -27,7 +27,7 @@ const pathname = usePathname();
         </a>
       </div>
       {pathname == "/" ? (
-        <div className=" w-1/2 xl:w-1/3 flex  flex-col lg:flex-row items-center justify-between">
+        <div className=" w-1/2 xl:w-1/3 flex  flex-col lg:flex-row items-center justify-evenly">
           <a
             onClick={(e) => {
               scrollIntoView(e, "projects-section");
@@ -37,7 +37,7 @@ const pathname = usePathname();
           >
             Projects
           </a>
-          <a
+          {/* <a
             href="#experience-section"
             onClick={(e) => {
               scrollIntoView(e, "experience-section");
@@ -45,7 +45,7 @@ const pathname = usePathname();
             className=" text-xl p-3 font-bold hover:text-beige hover:cursor-pointer "
           >
             Experience
-          </a>
+          </a> */}
           <button
             className=" bg-oil hover:bg-gray-800  hover:cursor-pointer p-3 rounded-md "
             onClick={(e) =>

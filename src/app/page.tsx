@@ -12,11 +12,8 @@ export default async function Home() {
   return (
     <main className=" flex flex-col items-center justify-center  overflow-x-hidden ">
       <TopPage personalProfileBody={personalProfileData.personal_profile} />
-      <div id="experience-section">
-        <ExperienceSection
-          experience={personalProfileData.experiences}
-        ></ExperienceSection>
-      </div>
+      <br></br>
+      <br></br>
       <div id="projects-section">
         <ProjectSection
           projects={personalProfileData.projects}

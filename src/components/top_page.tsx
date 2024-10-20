@@ -8,7 +8,7 @@ interface titleProps {
 
 export default function TopPage(props: titleProps) {
   return (
-    <div className=" w-screen lg:h-[700px] grid grid-cols-1 lg:grid-cols-2 bg-no-repeat bg-center bg-cover bg-[url('/assets/images/wave-haikei.svg')]">
+    <div className=" w-screen lg:h-[700px] grid grid-cols-1 lg:grid-cols-2">
       <div className=" flex flex-col items-start justify-start p-8 2xl:py-10 2xl:px-28">
         <div>
           <p className=" text-3xl max-sm:text-center xl:text-4xl  font-extrabold">
