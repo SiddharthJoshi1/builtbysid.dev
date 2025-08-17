@@ -37,13 +37,13 @@ export default function TopPage(props: titleProps) {
             id="buttonRow"
             className="flex max-sm:flex-col flex-row  items-center  md:items-start"
           >
-            <a
+            {/* <a
               className=" bg-oil hover:bg-gray-800  hover:cursor-pointer p-3 max-sm:m-5 md:mr-10 rounded-md "
               href="/assets/data/Siddharth Joshi Software Developer Resume.pdf"
               download={"Siddharth Joshi Software Developer Resume.pdf"}
             >
               <p className=" text-xl font-bold">Get my CV</p>
-            </a>
+            </a> */}
             <a
               className="max-sm:m-5 md:mr-10 "
               href="https://www.linkedin.com/in/siddharth-joshi-/"
