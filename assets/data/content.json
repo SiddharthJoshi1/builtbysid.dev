@@ -1,137 +1,135 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.7",
   "theme_flavour": "dusk",
   "theme_mode": "dark",
   "profile": {
     "name": "Sid",
-    "bio": "Software engineer. Building things, shipping code, learning in public.",
-    "avatar_path": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=400&q=80"
+    "bio": "Product Engineer who builds high-quality, scalable applications. My goal is to create software people will love.",
+    "avatar_path": "assets/Sid Gen.png"
   },
   "tiles": [
     {
       "type": "section_title",
       "tile_size": "full_bar",
-      "title": "What I'm shipping."
-    },
-    {
-      "type": "link",
-      "tile_size": "half_tower",
-      "title": "Your Project Title",
-      "url": "https://github.com/SiddharthJoshi1",
-      "image_path": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&q=80"
-    },
-    {
-      "type": "link",
-      "tile_size": "half_tower",
-      "title": "Another Project",
-      "url": "https://github.com/SiddharthJoshi1",
-      "image_path": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&q=80"
-    },
-    {
-      "type": "section_title",
-      "tile_size": "full_bar",
-      "title": "How I think."
+      "title": "How I work."
     },
     {
       "type": "text",
       "tile_size": "half_card",
-      "title": "I care about the gap between code that works and code that lasts. Clean architecture isn't dogma — it's just respect for future-you.",
-      "colour": "#1a1a2e"
-    },
-    {
-      "type": "text",
-      "tile_size": "quarter_card",
-      "title": "Dart / Flutter",
-      "colour": "#0f3460"
-    },
-    {
-      "type": "text",
-      "tile_size": "quarter_card",
-      "title": "TypeScript / Node",
-      "colour": "#16213e"
+      "title": "I believe the best products are built by teams who communicate with clarity and empathy.",
+      "colour": "#F45B26"
     },
     {
       "type": "section_title",
       "tile_size": "full_bar",
-      "title": "Recent writing."
+      "title": "Find me here. 👋"
     },
     {
       "type": "link",
-      "tile_size": "half_tower",
-      "title": "I write about what I'm building. Come read it.",
-      "url": "https://substack.com",
-      "image_path": "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=800&q=80"
-    },
-    {
-      "type": "link",
-      "tile_size": "half_tower",
-      "title": "All my code lives here.",
-      "url": "https://github.com/SiddharthJoshi1",
-      "image_path": "https://images.unsplash.com/photo-1506097425191-7ad538b29cef?w=800&q=80"
-    },
-    {
-      "type": "section_title",
-      "tile_size": "full_bar",
-      "title": "Find me."
-    },
-    {
-      "type": "map",
-      "tile_size": "quarter_card",
-      "title": "London, UK",
-      "latitude": 51.5074,
-      "longitude": -0.1278
-    },
-    {
-      "type": "link",
-      "tile_size": "quarter_card",
-      "title": "GitHub",
-      "url": "https://github.com/SiddharthJoshi1"
+      "tile_size": "half_bar",
+      "title": "Get my CV.",
+      "url": "https://sidjoshi.notion.site/CV-31282118ee9080fe8e51e36781755b9d?pvs=143",
+      "colour": "#C44A3A"
     },
     {
       "type": "link",
       "tile_size": "half_card",
-      "title": "Let's connect on LinkedIn.",
-      "url": "https://linkedin.com",
-      "image_path": "https://images.unsplash.com/photo-1611944212129-29977ae1398c?w=800&q=80"
+      "title": "Check out my Github.",
+      "url": "https://www.github.com/SiddharthJoshi1",
+      "image_path": "assets/untitled_dragon_game.gif",
+      "colour": "#2C2C2C"
+    },
+    {
+      "type": "link",
+      "tile_size": "half_card",
+      "title": "Keep up with my work here.",
+      "url": "https://www.linkedin.com/in/siddharth-joshi-/",
+      "image_path": "assets/1635723301936.jpg"
     },
     {
       "type": "section_title",
       "tile_size": "full_bar",
-      "title": "Interactive widgets."
+      "title": "Stuff I've Shipped 🚀"
+    },
+    {
+      "type": "image",
+      "tile_size": "half_tower",
+      "title": "bento_layout — Skyline bin-packing grid for Flutter. Published on pub.dev.",
+      "url": "https://pub.dev/packages/bento_layout",
+      "image_path": "assets/bento_layout_gif.gif"
+    },
+    {
+      "type": "link",
+      "tile_size": "half_tower",
+      "title": "Bubbles: Breaking Down Complex Journeys",
+      "url": "https://github.com/TinyBigLabs/bubbles_example",
+      "image_path": "assets/bubbles.png"
+    },
+    {
+      "type": "section_title",
+      "tile_size": "full_bar",
+      "title": "Writing ✍️"
+    },
+    {
+      "type": "link",
+      "tile_size": "quarter_tower",
+      "title": "Check out my Substack.",
+      "url": "https://builtbysid.substack.com",
+      "image_path": "assets/Sid Gen.png"
+    },
+    {
+      "type": "image",
+      "tile_size": "quarter_tower",
+      "title": "Creating a Bento Layout in Flutter",
+      "url": "https://builtbysid.substack.com/p/creating-a-bento-layout-in-flutter",
+      "image_path": "assets/bento_article_image.jpeg"
+    },
+    {
+      "type": "image",
+      "tile_size": "quarter_tower",
+      "title": "WTF is a Quadtree?",
+      "url": "https://builtbysid.substack.com/p/wtf-is-a-quadtree",
+      "image_path": "assets/quadtree_article_image.png"
+    },
+    {
+      "type": "image",
+      "tile_size": "quarter_tower",
+      "title": "Optimising Complex Journeys",
+      "url": "https://tinybigtheory.substack.com/p/bubbles-breaking-down-complex-journeys",
+      "image_path": "assets/bubbles_article_image.png"
+    },
+    {
+      "type": "section_title",
+      "tile_size": "full_bar",
+      "title": "Some cool widgets I've built 🧩"
     },
     {
       "type": "widgets",
-      "tile_size": "half_tower",
-      "title": "Counter",
-      "widget_id": "counter_v1",
-      "colour": "#0f3460",
+      "tile_size": "full_tower",
+      "title": "Spin the wheel",
+      "widget_id": "spinner_v1",
+      "colour": "#050404",
       "widget_config": {
-        "label": "Taps"
-      }
-    },
-    {
-      "type": "widgets",
-      "tile_size": "half_tower",
-      "title": "Toggle Wall",
-      "widget_id": "toggle_wall_v2",
-      "colour": "#0f3460",
-      "widget_config": {
-        "columns": 4,
-        "rows": 6,
-        "bg_color": "#0F0F1A",
-        "neon_colors": ["#00F0FF", "#FF006E", "#39FF14", "#FFD600", "#BF00FF", "#FF4500"],
-        "glow_intensity": 1.0
+        "title": "🌙 Tonight I should...",
+        "items": [
+          "😴",
+          "🍕",
+          "📱",
+          "🎮",
+          "📚",
+          "🏃"
+        ]
       }
     },
     {
       "type": "section_title",
       "tile_size": "full_bar",
-      "title": "Fancy working together?"
+      "title": "Fancy working with me?"
     },
     {
       "type": "text",
       "tile_size": "half_bar",
-      "title": "Get in touch",
+      "title": "Let's Build Something Cool",
       "url": "mailto:sid@builtbysid.dev",
       "colour": "#000000"
     }
