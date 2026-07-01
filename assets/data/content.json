@@ -1,0 +1,139 @@
+{
+  "version": "1.0.0",
+  "theme_flavour": "dusk",
+  "theme_mode": "dark",
+  "profile": {
+    "name": "Sid",
+    "bio": "Software engineer. Building things, shipping code, learning in public.",
+    "avatar_path": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=400&q=80"
+  },
+  "tiles": [
+    {
+      "type": "section_title",
+      "tile_size": "full_bar",
+      "title": "What I'm shipping."
+    },
+    {
+      "type": "link",
+      "tile_size": "half_tower",
+      "title": "Your Project Title",
+      "url": "https://github.com/SiddharthJoshi1",
+      "image_path": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&q=80"
+    },
+    {
+      "type": "link",
+      "tile_size": "half_tower",
+      "title": "Another Project",
+      "url": "https://github.com/SiddharthJoshi1",
+      "image_path": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&q=80"
+    },
+    {
+      "type": "section_title",
+      "tile_size": "full_bar",
+      "title": "How I think."
+    },
+    {
+      "type": "text",
+      "tile_size": "half_card",
+      "title": "I care about the gap between code that works and code that lasts. Clean architecture isn't dogma — it's just respect for future-you.",
+      "colour": "#1a1a2e"
+    },
+    {
+      "type": "text",
+      "tile_size": "quarter_card",
+      "title": "Dart / Flutter",
+      "colour": "#0f3460"
+    },
+    {
+      "type": "text",
+      "tile_size": "quarter_card",
+      "title": "TypeScript / Node",
+      "colour": "#16213e"
+    },
+    {
+      "type": "section_title",
+      "tile_size": "full_bar",
+      "title": "Recent writing."
+    },
+    {
+      "type": "link",
+      "tile_size": "half_tower",
+      "title": "I write about what I'm building. Come read it.",
+      "url": "https://substack.com",
+      "image_path": "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=800&q=80"
+    },
+    {
+      "type": "link",
+      "tile_size": "half_tower",
+      "title": "All my code lives here.",
+      "url": "https://github.com/SiddharthJoshi1",
+      "image_path": "https://images.unsplash.com/photo-1506097425191-7ad538b29cef?w=800&q=80"
+    },
+    {
+      "type": "section_title",
+      "tile_size": "full_bar",
+      "title": "Find me."
+    },
+    {
+      "type": "map",
+      "tile_size": "quarter_card",
+      "title": "London, UK",
+      "latitude": 51.5074,
+      "longitude": -0.1278
+    },
+    {
+      "type": "link",
+      "tile_size": "quarter_card",
+      "title": "GitHub",
+      "url": "https://github.com/SiddharthJoshi1"
+    },
+    {
+      "type": "link",
+      "tile_size": "half_card",
+      "title": "Let's connect on LinkedIn.",
+      "url": "https://linkedin.com",
+      "image_path": "https://images.unsplash.com/photo-1611944212129-29977ae1398c?w=800&q=80"
+    },
+    {
+      "type": "section_title",
+      "tile_size": "full_bar",
+      "title": "Interactive widgets."
+    },
+    {
+      "type": "widgets",
+      "tile_size": "half_tower",
+      "title": "Counter",
+      "widget_id": "counter_v1",
+      "colour": "#0f3460",
+      "widget_config": {
+        "label": "Taps"
+      }
+    },
+    {
+      "type": "widgets",
+      "tile_size": "half_tower",
+      "title": "Toggle Wall",
+      "widget_id": "toggle_wall_v2",
+      "colour": "#0f3460",
+      "widget_config": {
+        "columns": 4,
+        "rows": 6,
+        "bg_color": "#0F0F1A",
+        "neon_colors": ["#00F0FF", "#FF006E", "#39FF14", "#FFD600", "#BF00FF", "#FF4500"],
+        "glow_intensity": 1.0
+      }
+    },
+    {
+      "type": "section_title",
+      "tile_size": "full_bar",
+      "title": "Fancy working together?"
+    },
+    {
+      "type": "text",
+      "tile_size": "half_bar",
+      "title": "Get in touch",
+      "url": "mailto:sid@builtbysid.dev",
+      "colour": "#000000"
+    }
+  ]
+}
